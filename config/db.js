@@ -17,4 +17,3 @@ const conn = async () => {
 conn();
 
 module.exports = conn
-// mongodb://localhost:27017
