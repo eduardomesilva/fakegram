@@ -1,0 +1,26 @@
+# Arquivos de log
+logs/
+*.log
+
+# Diretório node_modules gerado pelo npm/yarn
+node_modules/
+
+# Arquivo .env usado para variáveis de ambiente
+.env
+
+# Arquivos de build e cache gerados
+/build/
+.DS_Store
+npm-debug.log*
+
+# Arquivos de configuração local
+config/local.js
+
+# Dependências específicas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup criados pelo editor
+*~
+
+# Qualquer outro arquivo ou diretório específico do seu projeto que você não deseja versionar
