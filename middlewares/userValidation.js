@@ -31,6 +31,21 @@ const userCreateValidation = () => {
 }
 
 
+const loginValidation = () => {
+    return [
+        body("email")
+            .isString()
+            .withMessage("E-mail obrigatorio")
+            .isEmail()
+            .withMessage("Insira um e-mail valido."),
+        body("password")
+            .isString()
+            .withMessage("A senha é obrigatoria!!")
+            .withMessage("A senha precisa ter no minimo 5 caracteres!")
+    ]
+}
+
 module.exports = {
     userCreateValidation,
+    loginValidation,
 }
